@@ -31,6 +31,7 @@ header ul li {
   height: 650px;
   background-color: rgb(238, 238, 245);
 }
+
 .form_body div.h1 {
   height: 200px;
   width: 100%;
@@ -66,11 +67,27 @@ form > div > input {
   border-radius: 6px;
   width: 250px;
 }
+@media only screen and (max-width: 474px) {
+    form > div > input{
+        margin-left: 34px;
+        width: 200px;
+    }
+}
 .password {
   margin-left: 36px;
 }
+@media only screen and (max-width: 474px) {
+    .password{
+        margin-left: 6px;
+    }
+}
 .phone {
   margin-left: 58px;
+}
+@media only screen and (max-width: 474px) {
+    .phone{
+        margin-left: 28px;
+    }
 }
 #submit {
   width: 100px;
