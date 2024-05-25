@@ -68,26 +68,26 @@ form > div > input {
   width: 250px;
 }
 @media only screen and (max-width: 474px) {
-    form > div > input{
-        margin-left: 34px;
-        width: 200px;
-    }
+  form > div > input {
+    margin-left: 34px;
+    width: 200px;
+  }
 }
 .password {
   margin-left: 36px;
 }
 @media only screen and (max-width: 474px) {
-    .password{
-        margin-left: 6px;
-    }
+  .password {
+    margin-left: 6px;
+  }
 }
 .phone {
   margin-left: 58px;
 }
 @media only screen and (max-width: 474px) {
-    .phone{
-        margin-left: 28px;
-    }
+  .phone {
+    margin-left: 28px;
+  }
 }
 #submit {
   width: 100px;
@@ -108,6 +108,11 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
+@media only screen and (max-width: 500px) {
+    footer {
+      height: 240px;
+    }
+  }
 .about_company {
   width: 30%;
 }
